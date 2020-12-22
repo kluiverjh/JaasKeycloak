@@ -4,7 +4,7 @@ Simple example how to setup the JAAS KEYCLOACK adapter. The adapter uses Direct 
 
 The application will validate (hardcoded) username and password against keycloack  (or local debug LoginModule). And check if role exists.
 
-![](\doc\images\application_output.png)
+![](doc/images/application_output.png)
 
 In this example user and password are send in http to keycloack, a https url should be used to make it secure.
 
@@ -32,19 +32,19 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
 * Add client 'keycloack-demo-client'
 
-  ![add_client](doc\images\add_client.png)
+  ![add_client](doc/images/add_client.png)
 
 * Configure client with access type confidential and direct access grants enabled.
 
-  ![](doc\images\settings_client.png)
+  ![](doc/images/settings_client.png)
 
 * The client secret can now be found on tab credentials
 
-  ![](doc\images\client_secret.png)
+  ![](doc/images/client_secret.png)
 
 * Add the role 'example_role_read' to the client
 
-  ![add_client](doc\images\client_add_role.png)
+  ![add_client](doc/images/client_add_role.png)
 
 * Add user 'testuser'
 
@@ -52,19 +52,19 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
 * Set password "testpassword' (as defined in LoginCallbackHandler.java)
 
-  ![](\doc\images\set_user_password.png)
+  ![](doc/images/set_user_password.png)
 
 * Add role ''example_role_read' to client
 
-  ![client_add_role](doc\images\client_add_role.png)
+  ![client_add_role](doc/images/client_add_role.png)
 
-  ![client_add_role_to_user](doc\images\client_add_role_to_user.png)
+  ![client_add_role_to_user](doc/images/client_add_role_to_user.png)
 
   
 
 * Make sure 'keycloack.json' matches the values as set above
 
-  ![](doc\images\keyclock.png)
+  ![](doc/images/keyclock.png)
 
 
 
