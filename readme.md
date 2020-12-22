@@ -24,7 +24,7 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
 * Login on administration console with username 'admin' and password 'admin'
 
-  <img src="\doc\images\login.png" alt="Login" />
+  <img src="doc\images\login.png" alt="Login" />
 
 * Add realm 'realm_demo'
 
