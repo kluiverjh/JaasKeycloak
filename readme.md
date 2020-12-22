@@ -28,7 +28,7 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
 * Add realm 'realm_demo'
 
-  ![add_realm](\doc\images\add_realm.png)
+  ![add_realm](doc\images\add_realm.png)
 
 * Add client 'keycloack-demo-client'
 
@@ -40,11 +40,11 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
 * The client secret can now be found on tab credentials
 
-  ![](\doc\images\client_secret.png)
+  ![](doc\images\client_secret.png)
 
 * Add the role 'example_role_read' to the client
 
-  ![add_client](\doc\images\client_add_role.png)
+  ![add_client](doc\images\client_add_role.png)
 
 * Add user 'testuser'
 
@@ -56,7 +56,7 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
 * Add role ''example_role_read' to client
 
-  ![client_add_role](C:\Users\kluiverjh\eclipse-workspace-jaas\jaas.directaccessgrantsloginmodule.keycloak\doc\images\client_add_role.png)
+  ![client_add_role](doc\images\client_add_role.png)
 
   ![client_add_role_to_user](doc\images\client_add_role_to_user.png)
 
@@ -64,7 +64,7 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
 * Make sure 'keycloack.json' matches the values as set above
 
-  ![](\doc\images\keyclock.png)
+  ![](doc\images\keyclock.png)
 
 
 
