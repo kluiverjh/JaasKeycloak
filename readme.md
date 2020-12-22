@@ -28,7 +28,7 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
 * Add realm 'realm_demo'
 
-  ![add_realm](doc\images\add_realm.png)
+  ![add_realm](doc/images/add_realm.png)
 
 * Add client 'keycloack-demo-client'
 
