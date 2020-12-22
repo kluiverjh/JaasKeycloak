@@ -1,0 +1,11 @@
+{
+  "realm" : "realm_demo",
+  "resource" : "keycloack-demo-client",
+  "auth-server-url" : "http://localhost:8080/auth",
+  "ssl-required" : "none",
+
+      "credentials": {
+        "secret": "5db5b053-a4d1-4141-87ad-2403ef342749"
+    }
+}
+
