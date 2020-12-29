@@ -32,7 +32,6 @@ public class KeycloackLoginModule extends  DirectAccessGrantsLoginModule {
 			}
 		}
     	if (has_role) subject.getPrincipals().add(new RolenamePrincipal("Rolename:example_role_read"));
-    	*/
     	return result;
     }
 }

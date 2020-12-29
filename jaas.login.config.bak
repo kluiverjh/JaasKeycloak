@@ -11,6 +11,5 @@ InMemoryLoginModuleRealm {
 DirectAccessGrantsLoginRealm {
    jaas.LoginModules.KeycloackLoginModule required 
        debug=true
-       role-principal-class="jaas.RolenamePrincipal"
        keycloak-config-file="classpath:keycloak.json";
 };

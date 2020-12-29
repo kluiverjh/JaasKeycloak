@@ -34,7 +34,7 @@ public class Main {
 			System.out.println("Authenticated user has the following principals (roles):");
 			while (principalIterator.hasNext()) {
 				Principal p = (Principal) principalIterator.next();
-				System.out.println("\t * '" + p.toString() + "' class=" + p.getClass().getName());
+				System.out.println("\t * '" + p.toString() + "'");
 			}
 
             // Execute code with credentials of subject

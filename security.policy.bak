@@ -8,7 +8,7 @@ grant codeBase "file:${{java.ext.dirs}}/*" {
 
 
 grant codeBase "file:./-" ,
-    principal jaas.RolenamePrincipal "offline_access"
+    principal jaas.RolenamePrincipal "Rolename:example_role_read"
 {
    permission jaas.CustomPermission "ExamplePermissionRead";
 };

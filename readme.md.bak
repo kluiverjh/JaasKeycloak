@@ -54,8 +54,6 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
   ![](\doc\images\set_user_password.png)
 
-  **Important** Temporary password must be off.
-
 * Add role ''example_role_read' to client
 
   ![client_add_role](C:\Users\kluiverjh\eclipse-workspace-jaas\jaas.directaccessgrantsloginmodule.keycloak\doc\images\client_add_role.png)
