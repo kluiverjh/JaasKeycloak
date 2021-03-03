@@ -1,16 +1,16 @@
 #  **JAAS (Java Authentication and Authorization Services)**
 
-Simple example how to setup the JAAS KEYCLOACK adapter. The adapter uses Direct Access Grants method to gain access token from keycloack.
+Simple example how to setup the JAAS KEYCLOAK adapter. The adapter uses Direct Access Grants method to gain access token from keycloak.
 
-The application will validate (hardcoded) username and password against keycloack  (or local debug LoginModule). And check if role exists.
+The application will validate (hardcoded) username and password against keycloak  (or local debug LoginModule). And check if role exists.
 
 ![](doc/images/application_output.png)
 
-In this example user and password are send in http to keycloack, a https url should be used to make it secure.
+In this example user and password are send in http to keycloak, a https url should be used to make it secure.
 
-## Keycloack docker
+## Keycloak docker
 
-For testing, the easiest way is to setup a keycloack docker container 
+For testing, the easiest way is to setup a keycloak docker container 
 
 ```bash
 docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:12.0.1
@@ -18,7 +18,7 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
 
 
-## Setup keycloack for demo application
+## Setup keycloak for demo application
 
 * Open 'http://localhost:8080'
 
@@ -30,7 +30,7 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
   ![add_realm](doc/images/add_realm.png)
 
-* Add client 'keycloack-demo-client'
+* Add client 'keycloak-demo-client'
 
   ![add_client](doc/images/add_client.png)
 
@@ -64,7 +64,7 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 
   
 
-* Make sure 'keycloack.json' matches the values as set above
+* Make sure 'keycloak.json' matches the values as set above
 
   ![](doc/images/keyclock.png)
 
